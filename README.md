@@ -1,4 +1,4 @@
-CAN-Frame-Protection-Custom-Device
+Table Workspace Objects
 ===================
 
 **IP Name** is a insert description of IP
