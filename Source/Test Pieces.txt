@@ -1,0 +1,37 @@
+Testing for Table control and indicator
+
+Missing Channel Test
+Add a channel, add the object, link to the channel, generate and connect limits, remove link, should say invalid.
+Add channel back in, everything should work
+Remove channel and the remove it from the workspace object
+
+Undeploy test
+Add object, link some channels, change size, bold, text size, exit, redeploy, make sure everything is still the same.
+
+Limits
+Add object, add channels, generate template (should autofill path).  Open file and make some intellengent changes.  Make channels go out of range and make sure the colors change.
+Undeploy and redeploy to make sure the settings remain.
+Undeploy, make new settings, redeploy to make sure the new settings hold.
+Add a new channel without generating the template again, the field should go gray.
+Move the file and redeploy, all fields should go gray.
+Move the file back and redeploy, everything should work.
+
+Channel selection
+Make sure channels are always added and removed correctly.
+
+Resize
+Make sure everything looks right from a resize
+
+Try to break the control version with the numeric being left on the screen.
+
+Custom device channels
+Make sure this works with custom device controls and indicators
+
+Make sure the different polling rats change noticibly.
+Make sure the poll rate stays through an undeploy/redeploy
+
+Check fully loaded object to make sure CPU is ok.
+
+Check all subVIs are in library and reentrant.
+
+Make sure build has two objects and one support library
