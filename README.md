@@ -1,25 +1,25 @@
-CAN-Frame-Protection-Custom-Device
+Table-Workspace-Object-Custom-Device
 ===================
 
-**IP Name** is a insert description of IP
+This set of workspace objects and tools allows for mass grouping of data within VeriStand. There is workspace objects for inputs and a second object for outputs. There is also a tool for inputs. This tool will remember previous selections.
 
 ### LabVIEW Version ###
 
-Describe the LabVIEW version used to develop this source
+LabVIEW 2013.
 
 ### Built Availability ###
 
-Describe the availability, or lack of availability of built versions of this IP and provide any links needed to go get builds
+Users are allowed to build anything under Build Specifications in the source's LabVIEW project(s).  Pre-built versions are available upon request through NI Field Sales. 
 
 ### Quality, Limitations ###
 
-Describe the maturity of the IP. Is this in use worldwide? Is this terrible code that needs lots of updates? Is this a work in progress?
+IP has been tested by developer. It meets VeriStand addon coding best practices. It is currently used by various customers.
 
-Describe any limitations of the IP.
+No known limitations.
 
 ### Dependencies ###
 
-Describe any dependencies of the IP
+OpenG Array Library 4.1.1.14
 
 ### License ###
 
